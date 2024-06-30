@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.Introduction{
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    background-size: cover;
+}
+
+.Introduction .cover{
+    background-image: linear-gradient(to right,black 30%, transparent 70%);
+}
+
+.Rental{
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+    background-size: cover;
+}
+
+.TV{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    background-size: cover;
+}
+
+.shadow:hover{
+    box-shadow: 0px 0px 15px 4px black;
+}
